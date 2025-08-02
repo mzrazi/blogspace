@@ -120,7 +120,7 @@ mern-blog-app/
 │   ├── controllers/
 │   ├── models/
 │   ├── routes/
-│   └── index.js
+│   └── server.js
 
 ## 🧪 Usage
 Register or login to get a JWT token
