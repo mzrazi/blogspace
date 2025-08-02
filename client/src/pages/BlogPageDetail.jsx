@@ -5,7 +5,7 @@ import { getBlogById } from "../data/dummyData";
 import { Calendar, User, Edit, Trash2, ArrowLeft } from "lucide-react";
 import axios from "axios";
 
-const BlogDetailPage = () => {
+const BlogPageDetail = () => {
   const { id } = useParams();
   const [blog, setBlog] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -170,4 +170,4 @@ const BlogDetailPage = () => {
   );
 };
 
-export default BlogDetailPage;
+export default BlogPageDetail;

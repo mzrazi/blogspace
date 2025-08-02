@@ -8,8 +8,8 @@ import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import CreateEditBlogPage from "./pages/CreateEditBlogPage";
 import ProfilePage from "./pages/ProfilePage";
-import BlogDetailPage from "./pages/blogDetailPage";
 import PublicRoute from "./components/publicRoute";
+import BlogPageDetail from "./pages/BlogPageDetail";
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
                 </PublicRoute>
               }
             />
-            <Route path="/blogs/:id" element={<BlogDetailPage />} />
+            <Route path="/blogs/:id" element={<BlogPageDetail />} />
             <Route
               path="/create"
               element={
